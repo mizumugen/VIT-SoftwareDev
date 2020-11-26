@@ -1,4 +1,3 @@
 # VIT-SoftwareDev
 
-Problem Statement:  
-https://docs.google.com/document/d/16CNXNQ-VLLSoVe7CvJFBzueawgrCjWorB7zMLNvOF94/edit?usp=sharing
+You can go about doing all the moves for level 3 version of the game for all the characters on that level. If you enter something wrong system will prompt you with the type of error and you can change the input as per that to play the game further. I have tried to remove all the logical errors and haven't left any from my side but if you find any do let me know, I don't think so that there are some logical errors but due to time constraint, I might have missed something that I don't see so mark me as per that. otherwise it's fine and have done everything asked in https://docs.google.com/document/d/16CNXNQ-VLLSoVe7CvJFBzueawgrCjWorB7zMLNvOF94/edit?usp=sharing.
