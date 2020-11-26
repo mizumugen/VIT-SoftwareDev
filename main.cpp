@@ -92,21 +92,45 @@ class game{
         player == 1 ? markgrid("A-P1", pos[player-1][0], {2,2}, player, 0): markgrid("B-P1", pos[player-1][0], {2,2}, player, 0);
         cout<<"Enter the position of Pawn 2: ";
         cin>>s;
+        while(exist[player-1][s[1]-'1'])
+        {
+            cout<<"Invalid Position as chacrter already exist at position. Retry!"<<endl;
+            cout<<"Enter the position of Pawn 2: ";
+            cin>>s;
+        }
         pos[player-1][1][1] = s[1]-'1';
         pos[player-1][1][0] = (player==1?4:0);
         player == 1 ? markgrid("A-P2", pos[player-1][1], {2,2}, player, 1): markgrid("B-P2", pos[player-1][1], {2,2}, player, 1);
         cout<<"Enter the position of Hero 1: ";
         cin>>s;
+        while(exist[player-1][s[1]-'1'])
+        {
+            cout<<"Invalid Position as chacrter already exist at position. Retry!"<<endl;
+            cout<<"Enter the position of Hero 1: ";
+            cin>>s;
+        }
         pos[player-1][2][1] = s[1]-'1';
         pos[player-1][2][0] = (player==1?4:0);
         player == 1 ? markgrid("A-H1", pos[player-1][2], {2,2}, player, 2): markgrid("B-H1", pos[player-1][2], {2,2}, player, 2);
         cout<<"Enter the position of Hero 2: ";
         cin>>s;
+        while(exist[player-1][s[1]-'1'])
+        {
+            cout<<"Invalid Position as chacrter already exist at position. Retry!"<<endl;
+            cout<<"Enter the position of Hero 2: ";
+            cin>>s;
+        }
         pos[player-1][3][1] = s[1]-'1';
         pos[player-1][3][0] = (player==1?4:0);
         player == 1 ? markgrid("A-H2", pos[player-1][3], {2,2}, player, 3): markgrid("B-H2", pos[player-1][3], {2,2}, player, 3);
         cout<<"Enter the position of Hero 3: ";
         cin>>s;
+        while(exist[player-1][s[1]-'1'])
+        {
+            cout<<"Invalid Position as chacrter already exist at position. Retry!"<<endl;
+            cout<<"Enter the position of Hero 3: ";
+            cin>>s;
+        }
         pos[player-1][4][1] = s[1]-'1';
         pos[player-1][4][0] = (player==1?4:0);
         player == 1 ? markgrid("A-H3", pos[player-1][4], {2,2}, player, 4): markgrid("B-H3", pos[player-1][4], {2,2}, player, 4);
